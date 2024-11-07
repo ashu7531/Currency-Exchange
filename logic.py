@@ -167,9 +167,10 @@ def exchange(old,new,amt):
     a=query_website(old,new,amt)
     exchange_amt=get_rhs(a)
     return before_space(exchange_amt)
-# if __name__=='__main__':
-#     import doctest
-#     doctest.testmod()
+
+if __name__=='__main__':
+    import doctest
+    doctest.testmod()
 
     
 
